@@ -63,18 +63,18 @@ const AllPersoList = () => {
     return (
         <Container>
             <Navbar />
-            <Title>All Persos</Title>
+            <Title>Tous les personnages</Title>
             <FilterContainer>
                 <Filter>
-                    <FilterText>Filter by gender</FilterText>
+                    <FilterText>Filter par genre</FilterText>
                     <Select name="gender" onChange={handleFilters}>
-                        <Option selected disabled> Gender : </Option>
-                        <Option>male</Option>
-                        <Option>female</Option>
+                        <Option selected disabled> Genre : </Option>
+                        <Option value="male">Homme</Option>
+                        <Option value="female">Femme</Option>
                     </Select>
                 </Filter>
                 <Filter>
-                    <FilterText>Filter by House</FilterText>
+                    <FilterText>Filter par maison</FilterText>
                     <Select name="house" onChange={handleFilters}>
                         <Option selected disabled> House : </Option>
                         <Option>Gryffindor</Option>
