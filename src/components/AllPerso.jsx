@@ -50,6 +50,7 @@ const AllPerso = ({ item }) => {
                 <Description>Actor : {item.actor}</Description>
                 <Description>Day of Birth : {item.dateOfBirth}</Description>
                 <Description>Ancestry : {item.ancestry}</Description>
+                <Description>Gender : {item.gender}</Description>
             </ContainerDesc>
         </Container>
     )
